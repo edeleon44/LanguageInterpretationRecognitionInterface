@@ -63,7 +63,7 @@ getMovie();
 
 //
 
-spotify.search({ type: 'track', query: 'The Sign' }, function(err, data) {
+spotify.search({ type: 'artist', query: 'Ace of Base' }, function(err, data) {
   if (err) {
     return console.log('Error occurred: ' + err);
   }
